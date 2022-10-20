@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+header{
+    background: #03a9fa;
+    text-align: center;
+}
+
+.logo{
+    color: #fff;
+    font-family: Silkscreen;
+    text-align: center;
+    font-size: 40px;
+}
+
+header input {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.news_item {
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+}
