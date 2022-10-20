@@ -1,0 +1,123 @@
+
+h1 { 
+  font-family: 'Righteous', cursive;
+  color: #ecc1a1;
+  text-decoration: underline;
+  text-decoration-color: #58626c;
+  font-style: italic;
+}
+
+.bg {
+  background: #f5f1ee;
+  /* animation: gradientBG 5s ease infinite;
+  background-size: 300% 300%;
+  #58626c, #dac8be, #ecc1a1, #f5f1ee
+   */
+}
+
+/* @keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+} */
+  
+button.coal {
+  background-color:#58626c !important;
+  border-color:#ecc1a1 !important;
+  color: #ecc1a1;
+}
+
+button.coal:hover {
+  background-color:#ecc1a1 !important;
+  border-color:#58626c !important;
+  color: #58626c;
+}
+
+.badge-danger {
+  background-color: #58626c !important;
+  color: #ecc1a1;
+  border-color: #ecc1a1;
+}
+
+.badge-danger:hover {
+  background-color:#ecc1a1 !important;
+  border-color:#58626c !important;
+  color: #58626c;
+}
+
+.wrapper {
+  height:100vh;
+  display: grid;
+}
+
+.center-wrapper {
+  align-self: center;
+  justify-self: center;
+}
+
+.players_wrapper {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.Toastify{
+  position:fixed;
+}
+
+.badge{
+  cursor: pointer;
+}
+
+.action_button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ecc1a1;
+  color: #58626c;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-family: 'Righteous', cursive;
+  border: 3px solid #58626c;
+  cursor: pointer;
+}
+
+.action_button:hover {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #58626c;
+  color: #ecc1a1;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-family: 'Righteous', cursive;
+  border: 3px solid #ecc1a1;
+  cursor: pointer;
+}
+
+.action_button.btn_2 {
+  right: 230px;
+}
+
+
+.result_wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.result_wrapper h3 {
+  color: #58626c;
+}
+
+.result_wrapper div {
+  font-size: 40px;
+  color: #58626c;
+  font-family: 'Righteous', cursive;
+}
