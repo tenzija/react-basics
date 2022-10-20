@@ -1,0 +1,92 @@
+/*=======================================
+            TRANSITIONS BASIC 
+========================================*/
+
+.square {
+    background: red;
+    height: 100px;
+    opacity: 1;
+    transition: all 1s ease ;
+}
+
+.square.square-entering {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.square.square-entered {
+    background: blue;
+}
+
+.square.square-exiting {
+    background: green;
+}
+
+.square.square-exited {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+/*=======================================
+                CSSTRANSITIONS
+========================================*/
+
+.cssSQ {
+    background: red;
+    height: 100px;
+    opacity: 1;
+    transition: all 500ms ease ;
+}
+
+.cssSQ-enter.cssSQ-enter-active {
+    opacity: 1;
+}
+
+.cssSQ-enter-done {
+    background: blue;
+}
+
+.cssSQ-exit.cssSQ-exit-active {
+    background: green;
+}
+
+.cssSQ-exit-done {
+    opacity: 0;
+}
+
+/*=======================================
+                TRANSITIONS GROUP 
+========================================*/
+
+.item {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1000ms ease-in;
+}
+
+.item-appear-active {
+    opacity: 1;
+    color:aquamarine;
+    background-color: antiquewhite;
+    transition: all 1000ms ease-in;
+}
+
+.item-appear-done {
+    opacity: 0.5;
+    color: black;
+    background-color: red;
+}
+
+.item-enter.item-enter-active {
+    opacity: 1;
+    color: antiquewhite;
+    background-color: aquamarine;
+    transition: all 1000ms ease-in;
+}
+
+.item-enter-done {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 1000ms ease-in;
+    color:aquamarine;
+    background-color: antiquewhite;
+}
