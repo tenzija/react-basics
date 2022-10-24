@@ -1,0 +1,294 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: 
+        linear-gradient(90deg, #311D3F, #88304E,#B62355,#B62355 , #88304E,#311D3F);
+    animation: gradientBG 10s ease infinite;
+    background-size: 250% 250%;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+::selection {
+  background: #D01B59;
+  color: #522546;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.purple {
+  background-color:#311D3F !important;
+  border-color:#D01B59 !important;
+  color: #D01B59;
+}
+
+.purple:hover {
+  background-color:#D01B59 !important;
+  border-color:#311D3F !important;
+  color: #311D3F;
+}
+
+.red:hover {
+  background-color:#311D3F !important;
+  border-color:#D01B59 !important;
+  color: #D01B59;
+}
+
+.red {
+  background-color:#D01B59 !important;
+  border-color:#311D3F !important;
+  color: #311D3F;
+}
+
+.audiowide {
+    font-family: 'Audiowide', cursive;
+    background-color: #311D3F;
+    color: #D01B59;
+}
+
+.audiowide-navbar {
+  font-family: 'Audiowide', cursive;
+  background-color: #522546;
+  color: #D01B59;
+}
+
+.audiowide-navbar-blur {
+  font-family: 'Audiowide', cursive;
+  color: #D01B59;
+  background: rgba(136, 48, 78, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(136, 48, 78, 0.3);
+}
+
+.author-text {
+  background-color: #522546;
+  color: #D01B59;
+  opacity: 1;
+}
+
+.author-text-dark {
+  background-color: #311D3F;
+  color: #D01B59;
+  opacity: 1;
+}
+
+.author-text-light {
+  background-color: #311D3F;
+  color: #D01B59;
+  font-weight: 300;
+}
+
+.size-lg {
+  font-size: 26px;
+}
+
+.border-red{
+  border: 3px groove #D01B59;
+  border-radius: 7px;
+}
+
+.border-red-double{
+  border: 2px groove #88304E;
+}
+
+nav { 
+    border-bottom: 3px solid #D01B59;
+    /* border-top: 3px solid #D01B59; */
+}
+
+.navbar {
+    justify-content: center;
+}
+.nav {
+  border-bottom: 3px solid #D01B59;
+}
+.nav .nav-link {
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+/*////////////////////////////////////
+            MASONRY CSS
+/////////////////////////////////////*/
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+div.author-darker {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+  font-size: 40px;
+  background: rgba(49, 29, 63, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D01B59;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+h1.author-darker {
+  color:#311D3F;
+  background: rgba(208, 27, 89, 0.6);
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+  font-size: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #311D3F;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+ 
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+
+.my-masonry-grid .content { 
+    padding:15px;
+    background: white;
+    border: 1px solid #dbdbdb;
+}
+.my-masonry-grid .content .title { 
+    border-bottom: 2px solid #D01B59;
+    color: #311D3F;
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.my-masonry-grid .content .excerpt {
+    font-weight: 200;
+    color: #D01B59;
+    font-size: 15px;
+}
+
+.my-masonry-grid .author {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+  font-size: 12px;
+  background: rgba(82, 37, 70, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #522546;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+.my-masonry-grid .author-darker {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+  font-size: 12px;
+  background: rgba(49, 29, 63, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D01B59;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .my-masonry-grid {
+      margin-left: -15px; /* gutter size offset */
+    }
+    .my-masonry-grid_column {
+      padding-left: 15px; /* gutter size offset */
+    }
+    .my-masonry-grid_column > div {
+      margin-bottom: 15px; /* space between items */
+    }
+  }
+
+
+/*////////////////////////////////////
+            NEWSLETTER
+/////////////////////////////////////*/
+
+.newsletter_container {
+  margin-top: 20px;
+  border-top: 5px groove #D01B59;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.newsletter_container h1 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+.newsletter_container .form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*////////////////////////////////////
+            ARTICLE
+/////////////////////////////////////*/
+
+.article_container h1 {
+font-size: 58px;
+font-weight: 300;
+}
+
+.article_container .image{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  height: 500px;
+}
+.article_container .author {
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.article_container .author-darker {
+  border-radius: 5px;
+  color:#D01B59;
+  backdrop-filter: blur(5px);
+  font-size: 58px;
+  font-weight: 300;
+  background: rgba(49, 29, 63, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D01B59;
+  border-radius: 3px;
+}
+
+.article_container .text {
+  border-radius: 5px;
+  color:#D01B59;
+  backdrop-filter: blur(5px);
+  font-size: 20px;
+  font-weight: 300;
+  background: rgba(49, 29, 63, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D01B59;
+  border-radius: 3px;
+}
