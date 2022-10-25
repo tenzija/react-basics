@@ -47,7 +47,14 @@ html {
   color: #D01B59;
 }
 
+
 .red {
+  background-color:#D01B59 !important;
+  border-color:#311D3F !important;
+  color: #311D3F;
+}
+
+.redAlert {
   background-color:#D01B59 !important;
   border-color:#311D3F !important;
   color: #311D3F;
@@ -198,6 +205,35 @@ h1.author-darker {
   background: rgba(82, 37, 70, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   border: 1px solid #522546;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+.author-contact {
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 5px 15px;
+  background: rgba(82, 37, 70, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D01B59;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+.contact {
+  font-size: 58px;
+  color: #D01B59;
+  opacity: 100%;
+}
+
+.author-darker-contact {
+  color: #D01B59;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  padding: 5px 15px;
+  background: rgba(49, 29, 63, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid #D01B59;
   border-radius: 3px;
   font-weight: 300;
 }

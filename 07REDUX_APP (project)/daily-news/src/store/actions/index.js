@@ -4,7 +4,8 @@ import {
     ADD_NEWSLETTER,
     CLEAR_NEWSLETTER,
     GET_POSTS_BY_ID,
-    CLEAR_POSTS_BY_ID
+    CLEAR_POSTS_BY_ID,
+    SEND_MESSAGE
 } from '../types'
 
 export const getPosts = (homePosts, page, order, limit) => ({
@@ -33,4 +34,9 @@ export const getPostById = (id) => ({
 export const clearPostById = () => ({
     type: CLEAR_POSTS_BY_ID,
     payload: {}
+})
+
+export const sendMessage = (data) => ({
+    type: SEND_MESSAGE,
+    payload: api.sendMessage(data)
 })
