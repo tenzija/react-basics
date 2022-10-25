@@ -8,6 +8,7 @@ const Header = () => {
           <a className="p-2 text-dark" href="/">Form One</a>
           <a className="p-2 text-dark" href="/formtwo">Form Two</a>
           <a className="p-2 text-dark" href="/formthree">Form Three</a>
+          <a className="p-2 text-dark" href="/reducer">Reducer</a>
         </nav>
       </div>
     );

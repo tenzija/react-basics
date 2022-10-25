@@ -5,6 +5,7 @@ import Header from './header';
 import FormOne from './formOne';
 import FormTwo from './formTwo';
 import FormThree from './formThree';
+import Reducer from './reducer';
 
 class Routes extends Component {
 
@@ -13,6 +14,7 @@ class Routes extends Component {
             <BrowserRouter>
                 <Header/>
                 <Switch>
+                    <Route path="/reducer" component={Reducer} />
                     <Route path="/formthree" component={FormThree} />
                     <Route path="/formtwo" component={FormTwo} />
                     <Route path="/" component={FormOne} />
